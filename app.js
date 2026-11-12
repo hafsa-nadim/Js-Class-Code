@@ -151,9 +151,25 @@
 // increment ++ => Pre Increment = ++a  , Post Increment = a++
 // decrement -- => Pre Decrement = --b , Post Decrement = b--
 
-let a = 2;
-let b = 4;
+// let a = 2;
+// let b = 4;
+// console.log(a++);
+// console.log(b--);
+// console.log(--a + --b);
+// console.log(a);
+// console.log(b);
 
-console.log(a--);
-console.log(a);
+// let num = 2;
+// let newNum = num--;
+
+// console.log(num);
+// console.log(newNum);
+
+// let a = 6;
+// let b = 8;
+
+// console.log(++a , --b);
+// console.log(--a, --b);
+// console.log(a**b); //6*6*6*6*6*6
+// console.log(a + b);
 
