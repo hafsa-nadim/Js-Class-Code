@@ -173,3 +173,37 @@
 // console.log(a**b); //6*6*6*6*6*6
 // console.log(a + b);
 
+// if statment
+
+// let age = prompt('Enter Your Correct Age: ');
+
+// if(age>=18){
+//     alert("Congratulations 💗, You're Eligible for Voting 🎫");
+// }
+// else{
+//     alert("Sorry! Grow Up a bit More , You're not eligible for this 😉");
+// }
+
+// let num = prompt('Enter any number :');
+
+// if(num % 2 === 0){
+//     alert('Its an Even Number 🟢');
+// }
+// else{
+//     alert('Its an Odd Number 🔴');
+// }
+
+let name = prompt("Enter Your Name: ");
+let fname = prompt("Enter Your Father Name: ");
+let age = prompt("Enter Your Age: ");
+let idNo = prompt("Enter Your Id No: ");
+let course = prompt("Enter Your Course Name: ");
+let img = prompt('Enter the correct image URL:');
+
+document.write("<center><font size='20' color='orange' face='Arial'>Prompt User Data :-</font><br><br>");
+document.write("<b>Profile: </b> <br>" , `<img src='${img}' height='100' width='100'/>` , "<br><br>");
+document.write("<b>Name: </b>" , name , "<br><br>");
+document.write("<b>Father Name: </b>" , fname , "<br><br>");
+document.write("<b>Age: </b>" , age , "<br><br>");
+document.write("<b>Id No: </b>" , idNo , "<br><br>");
+document.write("<b>Course: </b>" , course , "<br><br></center>");
